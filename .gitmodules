@@ -13,3 +13,6 @@
 [submodule "lib/MLDR"]
 	path = lib/MLDR
 	url = https://github.com/koobh/MLDR
+[submodule "bin"]
+	path = bin
+	url = https://github.com/koobh/QtBin
