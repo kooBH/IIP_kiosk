@@ -1,0 +1,15 @@
+[submodule "lib/MB1414"]
+	path = lib/MB1414
+	url = https://github.com/kooBH/MB1414.git
+[submodule "lib/serial"]
+	path = lib/serial
+	url = https://github.com/wjwwood/serial.git
+[submodule "lib/STFT"]
+	path = lib/STFT
+	url = https://github.com/koobh/STFT
+[submodule "lib/WAV"]
+	path = lib/WAV
+	url = https://github.com/koobh/WAV
+[submodule "lib/MLDR"]
+	path = lib/MLDR
+	url = https://github.com/koobh/MLDR
