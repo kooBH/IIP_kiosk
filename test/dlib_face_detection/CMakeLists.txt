@@ -1,6 +1,6 @@
 # CMAKE version of Ubuntu 16.04 is 3.5.
 cmake_minimum_required(VERSION 3.5)
-project(program_name)
+project(test_dlib_face_detection)
 
 set(LINKLIBS)
 set(COMPILE_OPTION)
@@ -13,7 +13,7 @@ set(INCL)
 #    http://dlib.net/compile.html        #
 ##########################################
 
-add_subdirectory(lib/dlib/dlib dlib_build)
+add_subdirectory(../../lib/dlib/dlib dlib_build)
 
 ##########################################
 #               OpenCV                   #
@@ -53,15 +53,19 @@ list(APPEND COMPILE_OPTION )
 if(UNIX)
   list(APPEND INCL 
     /usr/local/include/opencv4
-    ${CMAKE_CURRENT_SOURCE_DIR}/lib/opencv/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../lib/opencv/include
     )
 elseif(WIN32)
   list(APPEND INCL 
-    ${CMAKE_CURRENT_SOURCE_DIR}/lib/opencv/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../lib/opencv/include
     )
 endif()
 
 #################################################
+
+list(APPEND SRC
+  test.cpp
+)
 
 add_executable(${PROJECT_NAME} ${SRC})
 

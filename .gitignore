@@ -13,3 +13,6 @@ _deps
 # manually installed library
 lib/opencv
 lib/opencv_contrib
+
+## build folder
+build
