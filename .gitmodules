@@ -19,3 +19,6 @@
 [submodule "lib/RtAudioWrapper"]
 	path = lib/RtAudioWrapper
 	url = https://github.com/kooBH/RtAudioWrapper.git
+[submodule "lib/dlib"]
+	path = lib/dlib
+	url = https://github.com/davisking/dlib.git
