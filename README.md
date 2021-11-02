@@ -26,6 +26,12 @@ cmake ..
 make -j
 ```   
 
+## example 
+KwidgetASR : curl을 이용한 ASR API 사용 예제, QtFramework를 사용한 test 코드가 있으며, ETRI ASR APU를 사용하는 ASR_ETRI 코드가 있다.    
+dlib_face_detection : opencv를 활용한 dlib을 사용한 face detection 예제  
+get_audio_n_STFT : 마이크로 입력을 받아서 STFT를 수행하는 예제   
+run_python_model_in_cpp : (테스트 코드 링크만 있음) pytorch 모델을 cpp에서 불러서 inference를 수행하는 예제  
+
 ## Libraries   
 
 name|usage|link
