@@ -22,3 +22,6 @@
 [submodule "lib/dlib"]
 	path = lib/dlib
 	url = https://github.com/davisking/dlib.git
+[submodule "example/KWidgetASR"]
+	path = example/KWidgetASR
+	url = https://github.com/kooBH/KWidgetASR
